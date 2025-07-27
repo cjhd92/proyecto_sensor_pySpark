@@ -17,3 +17,26 @@ Este proyecto simula un sistema de procesamiento de datos provenientes de sensor
 ## 🧱 Estructura del Proyecto
 
 <img width="705" height="387" alt="image" src="https://github.com/user-attachments/assets/ddc93f6a-9675-40fb-91f0-6b3be21c3ae6" />
+
+---
+
+## ⚙️ Funcionalidades implementadas
+
+- Limpieza y conversión de tipos de datos (`timestamp`, `float`).
+- Extracción de variables temporales (hora, día).
+- Generación de variable booleana `alerta` con condiciones de temperatura/presión.
+- Clasificación de `nivel_alerta` como ALTA, MEDIA o BAJA.
+- Cálculo de promedio móvil de temperatura por sensor (`window functions`).
+- Escritura de resultados en CSV, con partición por día (`partitionBy`).
+
+---
+
+## 📌 Tecnologías utilizadas
+
+- Python 3.10+
+- PySpark
+- CSV como formato de entrada
+- CSV particionado como salida (simulación de Data Lake local)
+
+---
+
