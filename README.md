@@ -16,3 +16,4 @@ Este proyecto simula un sistema de procesamiento de datos provenientes de sensor
 
 ## 🧱 Estructura del Proyecto
 
+<img width="705" height="387" alt="image" src="https://github.com/user-attachments/assets/ddc93f6a-9675-40fb-91f0-6b3be21c3ae6" />
